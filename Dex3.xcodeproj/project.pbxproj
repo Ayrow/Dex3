@@ -14,6 +14,7 @@
 		948C9DB729A8CE1000FF101A /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948C9DB629A8CE1000FF101A /* Persistence.swift */; };
 		94943F5329DEF7BA001C50B1 /* TempPokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94943F5229DEF7BA001C50B1 /* TempPokemon.swift */; };
 		94943F5529DF0162001C50B1 /* FetchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94943F5429DF0162001C50B1 /* FetchController.swift */; };
+		94943F5729DF06F2001C50B1 /* PokemonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94943F5629DF06F2001C50B1 /* PokemonViewModel.swift */; };
 		94FAF1BB29DEF0AF00314D27 /* Dex3.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 94FAF1B929DEF0AF00314D27 /* Dex3.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +27,7 @@
 		948C9DB629A8CE1000FF101A /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		94943F5229DEF7BA001C50B1 /* TempPokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempPokemon.swift; sourceTree = "<group>"; };
 		94943F5429DF0162001C50B1 /* FetchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchController.swift; sourceTree = "<group>"; };
+		94943F5629DF06F2001C50B1 /* PokemonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonViewModel.swift; sourceTree = "<group>"; };
 		94FAF1BA29DEF0AF00314D27 /* Dex3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Dex3.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -62,6 +64,7 @@
 				948C9DAD29A8CE0F00FF101A /* Dex3App.swift */,
 				948C9DAF29A8CE0F00FF101A /* ContentView.swift */,
 				94943F5229DEF7BA001C50B1 /* TempPokemon.swift */,
+				94943F5629DF06F2001C50B1 /* PokemonViewModel.swift */,
 				94943F5429DF0162001C50B1 /* FetchController.swift */,
 				948C9DB629A8CE1000FF101A /* Persistence.swift */,
 				94FAF1B929DEF0AF00314D27 /* Dex3.xcdatamodeld */,
@@ -152,6 +155,7 @@
 				948C9DB729A8CE1000FF101A /* Persistence.swift in Sources */,
 				94FAF1BB29DEF0AF00314D27 /* Dex3.xcdatamodeld in Sources */,
 				94943F5529DF0162001C50B1 /* FetchController.swift in Sources */,
+				94943F5729DF06F2001C50B1 /* PokemonViewModel.swift in Sources */,
 				94943F5329DEF7BA001C50B1 /* TempPokemon.swift in Sources */,
 				948C9DB029A8CE0F00FF101A /* ContentView.swift in Sources */,
 				948C9DAE29A8CE0F00FF101A /* Dex3App.swift in Sources */,
