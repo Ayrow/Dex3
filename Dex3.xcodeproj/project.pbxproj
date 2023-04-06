@@ -12,6 +12,7 @@
 		948C9DB229A8CE1000FF101A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 948C9DB129A8CE1000FF101A /* Assets.xcassets */; };
 		948C9DB529A8CE1000FF101A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 948C9DB429A8CE1000FF101A /* Preview Assets.xcassets */; };
 		948C9DB729A8CE1000FF101A /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948C9DB629A8CE1000FF101A /* Persistence.swift */; };
+		94943F5329DEF7BA001C50B1 /* TempPokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94943F5229DEF7BA001C50B1 /* TempPokemon.swift */; };
 		94FAF1BB29DEF0AF00314D27 /* Dex3.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 94FAF1B929DEF0AF00314D27 /* Dex3.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
@@ -22,6 +23,7 @@
 		948C9DB129A8CE1000FF101A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		948C9DB429A8CE1000FF101A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		948C9DB629A8CE1000FF101A /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		94943F5229DEF7BA001C50B1 /* TempPokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempPokemon.swift; sourceTree = "<group>"; };
 		94FAF1BA29DEF0AF00314D27 /* Dex3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Dex3.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -57,6 +59,7 @@
 			children = (
 				948C9DAD29A8CE0F00FF101A /* Dex3App.swift */,
 				948C9DAF29A8CE0F00FF101A /* ContentView.swift */,
+				94943F5229DEF7BA001C50B1 /* TempPokemon.swift */,
 				948C9DB629A8CE1000FF101A /* Persistence.swift */,
 				94FAF1B929DEF0AF00314D27 /* Dex3.xcdatamodeld */,
 				948C9DB129A8CE1000FF101A /* Assets.xcassets */,
@@ -145,6 +148,7 @@
 			files = (
 				948C9DB729A8CE1000FF101A /* Persistence.swift in Sources */,
 				94FAF1BB29DEF0AF00314D27 /* Dex3.xcdatamodeld in Sources */,
+				94943F5329DEF7BA001C50B1 /* TempPokemon.swift in Sources */,
 				948C9DB029A8CE0F00FF101A /* ContentView.swift in Sources */,
 				948C9DAE29A8CE0F00FF101A /* Dex3App.swift in Sources */,
 			);
