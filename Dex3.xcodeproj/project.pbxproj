@@ -12,7 +12,7 @@
 		948C9DB229A8CE1000FF101A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 948C9DB129A8CE1000FF101A /* Assets.xcassets */; };
 		948C9DB529A8CE1000FF101A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 948C9DB429A8CE1000FF101A /* Preview Assets.xcassets */; };
 		948C9DB729A8CE1000FF101A /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948C9DB629A8CE1000FF101A /* Persistence.swift */; };
-		948C9DBA29A8CE1000FF101A /* Dex3.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 948C9DB829A8CE1000FF101A /* Dex3.xcdatamodeld */; };
+		94FAF1BB29DEF0AF00314D27 /* Dex3.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 94FAF1B929DEF0AF00314D27 /* Dex3.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,7 +22,7 @@
 		948C9DB129A8CE1000FF101A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		948C9DB429A8CE1000FF101A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		948C9DB629A8CE1000FF101A /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		948C9DB929A8CE1000FF101A /* Dex3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Dex3.xcdatamodel; sourceTree = "<group>"; };
+		94FAF1BA29DEF0AF00314D27 /* Dex3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Dex3.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +57,9 @@
 			children = (
 				948C9DAD29A8CE0F00FF101A /* Dex3App.swift */,
 				948C9DAF29A8CE0F00FF101A /* ContentView.swift */,
-				948C9DB129A8CE1000FF101A /* Assets.xcassets */,
 				948C9DB629A8CE1000FF101A /* Persistence.swift */,
-				948C9DB829A8CE1000FF101A /* Dex3.xcdatamodeld */,
+				94FAF1B929DEF0AF00314D27 /* Dex3.xcdatamodeld */,
+				948C9DB129A8CE1000FF101A /* Assets.xcassets */,
 				948C9DB329A8CE1000FF101A /* Preview Content */,
 			);
 			path = Dex3;
@@ -144,7 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				948C9DB729A8CE1000FF101A /* Persistence.swift in Sources */,
-				948C9DBA29A8CE1000FF101A /* Dex3.xcdatamodeld in Sources */,
+				94FAF1BB29DEF0AF00314D27 /* Dex3.xcdatamodeld in Sources */,
 				948C9DB029A8CE0F00FF101A /* ContentView.swift in Sources */,
 				948C9DAE29A8CE0F00FF101A /* Dex3App.swift in Sources */,
 			);
@@ -347,12 +347,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		948C9DB829A8CE1000FF101A /* Dex3.xcdatamodeld */ = {
+		94FAF1B929DEF0AF00314D27 /* Dex3.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				948C9DB929A8CE1000FF101A /* Dex3.xcdatamodel */,
+				94FAF1BA29DEF0AF00314D27 /* Dex3.xcdatamodel */,
 			);
-			currentVersion = 948C9DB929A8CE1000FF101A /* Dex3.xcdatamodel */;
+			currentVersion = 94FAF1BA29DEF0AF00314D27 /* Dex3.xcdatamodel */;
 			path = Dex3.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
