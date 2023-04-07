@@ -38,6 +38,7 @@ import Foundation
                 newPokemon.id = Int16(pokemon.id)
                 newPokemon.name = pokemon.name
                 newPokemon.types = pokemon.types
+                newPokemon.organizeTypes()
                 newPokemon.hp = Int16(pokemon.hp)
                 newPokemon.attack = Int16(pokemon.attack)
                 newPokemon.defense = Int16(pokemon.defense)
