@@ -9,6 +9,7 @@ import CoreData
 import SwiftUI
 
 struct PokemonDetail: View {
+    @Environment(\.managedObjectContext) private var viewContext
     @EnvironmentObject var pokemon: Pokemon
     @State private var showShiny = false
     
@@ -43,6 +44,23 @@ struct PokemonDetail: View {
                         .cornerRadius(50)
                 }
                 Spacer()
+                
+                Button {
+                    withAnimation {
+                        pokemon.favorite.toggle()
+                        
+                        do {
+                            try viewContext.save()
+                        } catch {
+                            let nsError = error as NSError
+                            fatalError("Unresolved error \(nsError), \(nsError.userInfo)")
+                        }
+                    }
+                } label: {
+                    Image(systemName: pokemon.favorite ? "star.fill" : "star")
+                        .font(.largeTitle)
+                        .foregroundColor(.yellow)
+                }
             }
             .padding()
             
